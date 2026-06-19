@@ -1,12 +1,8 @@
-nums = [10, 45, 23, 89, 12]
+num = int(input("Enter a number: "))
 
-largest = second = float('-inf')
+factorial = 1
+for i in range(1, num + 1):
+    factorial *= i
 
-for num in nums:
-    if num > largest:
-        second = largest
-        largest = num
-    elif num > second and num != largest:
-        second = num
+print("Factorial =", factorial)
 
-print("Second Largest =", second)
