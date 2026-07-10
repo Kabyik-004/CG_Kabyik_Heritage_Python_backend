@@ -139,3 +139,26 @@ tree.preorder(tree.root)
 
 print("\n\nPostorder:")
 tree.postorder(tree.root)
+
+"""
+
+Preorder:
+50 30 20 10 40 70 60 80 
+
+Postorder:
+10 20 40 30 60 80 70 50 
+
+Search 40: True
+Search 90: False
+
+After deleting 30
+Inorder:
+10 20 40 50 60 70 80 
+
+Preorder:
+50 40 20 10 70 60 80 
+
+Postorder:
+10 20 40 60 80 70 50 
+
+"""

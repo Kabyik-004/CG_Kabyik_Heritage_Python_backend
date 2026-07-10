@@ -48,3 +48,9 @@ if index != -1:
     print(f"Found at index {index}")
 else:
     print("Not Found")
+    """ram2.py
+Linear Search:
+Found at index 6
+
+Binary Search:
+Found at index 5"""

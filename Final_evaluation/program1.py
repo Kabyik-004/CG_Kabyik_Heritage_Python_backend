@@ -30,3 +30,11 @@ try:
 
 except ValueError:
     print("Invalid input! Please enter numeric values only.")
+    """Enter height (in meters): 1.3
+Enter weight (in kg): 44
+
+BMI = 26.04
+Category = Overweight
+
+Enter your birth year: 2004
+You are 22 years old."""

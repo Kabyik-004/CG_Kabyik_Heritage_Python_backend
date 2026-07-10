@@ -64,3 +64,19 @@ print(queue)
 served = queue.popleft()
 print("Served:", served)
 print(queue)
+"""Balanced Parentheses
+
+() -> True
+()[]{} -> True
+(] -> False
+([{}]) -> True
+((( -> False
+
+Queue Simulation
+deque(['Alice'])
+deque(['Alice', 'Bob'])
+deque(['Alice', 'Bob', 'Charlie'])
+Served: Alice
+deque(['Bob', 'Charlie'])
+Served: Bob
+deque(['Charlie'])"""
